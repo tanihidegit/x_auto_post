@@ -1,0 +1,1233 @@
+2026-02-21 12:06:22,380 [INFO] Starting OANDA Trading Bot...
+2026-02-21 12:06:22,381 [INFO] setting up API-client for environment practice
+2026-02-21 12:06:22,381 [INFO] performing request https://api-fxpractice.oanda.com/v3/accounts/001-009-20700636-003
+2026-02-21 12:06:23,019 [ERROR] request https://api-fxpractice.oanda.com/v3/accounts/001-009-20700636-003 failed [401,{"errorMessage":"Insufficient authorization to perform request."}]
+2026-02-21 12:06:23,019 [ERROR] Error fetching account details: {"errorMessage":"Insufficient authorization to perform request."}
+2026-02-21 12:06:23,019 [ERROR] Failed to connect to OANDA API. Exiting.
+2026-02-21 12:11:28,046 [INFO] Starting OANDA Trading Bot...
+2026-02-21 12:11:28,047 [INFO] setting up API-client for environment practice
+2026-02-21 12:11:28,047 [INFO] performing request https://api-fxpractice.oanda.com/v3/accounts/101-009-38592157-001
+2026-02-21 12:11:28,911 [INFO] Connected to Account: 101-009-38592157-001 - Balance: 3000000.0000
+2026-02-21 12:11:28,911 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:11:28,911 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:11:29,542 [INFO] Latest: 2026-02-20 21:59:00+00:00 | Close: 155.076 | SMA20: 155.054 | RSI: 49.1
+2026-02-21 12:11:48,508 [INFO] Stopping bot...
+2026-02-21 12:22:06,774 [INFO] Starting OANDA Trading Bot in live mode...
+2026-02-21 12:22:06,775 [INFO] setting up API-client for environment live
+2026-02-21 12:22:06,775 [INFO] performing request https://api-fxtrade.oanda.com/v3/accounts/001-009-20700636-003
+2026-02-21 12:22:07,225 [INFO] Connected to Account: 001-009-20700636-003 - Balance: 300000.0000
+2026-02-21 12:22:07,226 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:22:07,227 [INFO] performing request https://api-fxtrade.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:22:07,427 [INFO] Latest: 2026-02-20 21:59:00+00:00 | Close: 155.076 | SMA_short: 155.054 | RSI: 49.1
+2026-02-21 12:22:07,427 [INFO] performing request https://api-fxtrade.oanda.com/v3/accounts/001-009-20700636-003/positions
+2026-02-21 12:22:12,618 [INFO] performing request https://api-fxtrade.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:22:12,805 [INFO] Latest: 2026-02-20 21:59:00+00:00 | Close: 155.076 | SMA_short: 155.054 | RSI: 49.1
+2026-02-21 12:22:12,806 [INFO] performing request https://api-fxtrade.oanda.com/v3/accounts/001-009-20700636-003/positions
+2026-02-21 12:22:17,991 [INFO] performing request https://api-fxtrade.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:22:18,204 [INFO] Latest: 2026-02-20 21:59:00+00:00 | Close: 155.076 | SMA_short: 155.054 | RSI: 49.1
+2026-02-21 12:22:18,204 [INFO] performing request https://api-fxtrade.oanda.com/v3/accounts/001-009-20700636-003/positions
+2026-02-21 12:22:23,389 [INFO] Environment changed from live to practice. Restarting bot logic is required.
+2026-02-21 12:30:09,335 [INFO] Starting OANDA Trading Bot in practice environment | Mode: REALTIME
+2026-02-21 12:30:09,335 [INFO] setting up API-client for environment practice
+2026-02-21 12:30:09,335 [INFO] performing request https://api-fxpractice.oanda.com/v3/accounts/101-009-38592157-001
+2026-02-21 12:30:10,211 [INFO] Connected to Account: 101-009-38592157-001 - Balance: 3000000.0000
+2026-02-21 12:30:10,211 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:30:10,213 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:30:10,967 [INFO] Latest: 2026-02-20 21:59:00+00:00 | Close: 155.076 | SMA_short: 155.054 | RSI: 49.1
+2026-02-21 12:30:10,968 [INFO] performing request https://api-fxpractice.oanda.com/v3/accounts/101-009-38592157-001/positions
+2026-02-21 12:30:12,111 [INFO] Stopping bot...
+2026-02-21 12:31:43,869 [INFO] Starting OANDA Trading Bot in practice environment | Mode: BACKTEST
+2026-02-21 12:31:43,869 [INFO] setting up API-client for environment practice
+2026-02-21 12:31:43,870 [INFO] Starting backtest from 2024-02-10T09:00:00Z to now
+2026-02-21 12:31:43,870 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:31:43,871 [INFO] Fetching historical data for backtest...
+2026-02-21 12:31:43,872 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:31:44,312 [INFO] Fetched 500 candles for backtest.
+2026-02-21 12:31:47,828 [INFO] [BACKTEST] Emulated BUY order. Price: 149.181, SL: 148.981, TP: 149.581
+2026-02-21 12:31:52,395 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:31:53,405 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:31:53,885 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:31:54,045 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:31:54,421 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:31:56,520 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:32:00,831 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:32:07,486 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:32:08,475 [INFO] Backtest completed.
+2026-02-21 12:41:32,276 [INFO] Starting OANDA Trading Bot in practice environment | Mode: BACKTEST
+2026-02-21 12:41:32,277 [INFO] setting up API-client for environment practice
+2026-02-21 12:41:32,277 [INFO] Starting backtest from 2024-02-10T09:00:00Z to 2026-02-21T01:00:00Z
+2026-02-21 12:41:32,277 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:41:32,278 [INFO] Fetching historical data for backtest...
+2026-02-21 12:41:32,278 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:41:32,698 [ERROR] request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles failed [400,{"errorMessage":"Maximum value for 'count' exceeded"}]
+2026-02-21 12:41:32,698 [ERROR] Error fetching candles: {"errorMessage":"Maximum value for 'count' exceeded"}
+2026-02-21 12:41:32,699 [ERROR] No historical data fetched.
+2026-02-21 12:42:29,630 [INFO] Starting OANDA Trading Bot in practice environment | Mode: BACKTEST
+2026-02-21 12:42:29,630 [INFO] setting up API-client for environment practice
+2026-02-21 12:42:29,631 [INFO] Starting backtest from 2024-02-10T09:00:00Z to 2026-02-17T01:00:00Z
+2026-02-21 12:42:29,631 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:42:29,632 [INFO] Fetching historical data for backtest...
+2026-02-21 12:42:29,632 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:42:30,547 [ERROR] request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles failed [400,{"errorMessage":"Maximum value for 'count' exceeded"}]
+2026-02-21 12:42:30,547 [ERROR] Error fetching candles: {"errorMessage":"Maximum value for 'count' exceeded"}
+2026-02-21 12:42:30,547 [ERROR] No historical data fetched.
+2026-02-21 12:44:16,633 [INFO] Starting OANDA Trading Bot in practice environment | Mode: BACKTEST
+2026-02-21 12:44:16,633 [INFO] setting up API-client for environment practice
+2026-02-21 12:44:16,633 [INFO] Starting backtest from 2024-02-10T09:00:00Z to 2026-02-17T01:00:00Z
+2026-02-21 12:44:16,634 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:44:16,634 [INFO] Fetching historical data for backtest...
+2026-02-21 12:44:16,636 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:44:18,685 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:44:20,140 [INFO] Fetched 9999 candles for backtest.
+2026-02-21 12:44:20,147 [INFO] [BACKTEST] Emulated BUY order. Price: 149.181, SL: 148.981, TP: 149.581
+2026-02-21 12:44:20,155 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,158 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,159 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,159 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,160 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,164 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,172 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,182 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,186 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,199 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,202 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,210 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,212 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,214 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,215 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,217 [INFO] [BACKTEST] Position closed @ 148.976 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 12:44:20,221 [INFO] [BACKTEST] Emulated BUY order. Price: 148.986, SL: 148.786, TP: 149.386
+2026-02-21 12:44:20,225 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,226 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,236 [INFO] [BACKTEST] Position closed @ 149.39 | PNL: 4000.00 | Balance: 3002000.00
+2026-02-21 12:44:20,243 [INFO] [BACKTEST] Emulated SELL order. Price: 149.432, SL: 149.632, TP: 149.032
+2026-02-21 12:44:20,257 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,270 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,280 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,288 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,292 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,309 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,310 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,313 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,313 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,314 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,324 [INFO] [BACKTEST] Position closed @ 149.633 | PNL: -2000.00 | Balance: 3000000.00
+2026-02-21 12:44:20,327 [INFO] [BACKTEST] Emulated SELL order. Price: 149.6, SL: 149.8, TP: 149.2
+2026-02-21 12:44:20,328 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,328 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,329 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,332 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,338 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,357 [INFO] [BACKTEST] Position closed @ 149.85 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 12:44:20,363 [INFO] [BACKTEST] Emulated SELL order. Price: 150.366, SL: 150.566, TP: 149.966
+2026-02-21 12:44:20,365 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,365 [INFO] [BACKTEST] Position closed @ 150.571 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:44:20,369 [INFO] [BACKTEST] Emulated SELL order. Price: 150.446, SL: 150.646, TP: 150.046
+2026-02-21 12:44:20,373 [INFO] [BACKTEST] Position closed @ 150.669 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 12:44:20,383 [INFO] [BACKTEST] Emulated SELL order. Price: 150.754, SL: 150.954, TP: 150.354
+2026-02-21 12:44:20,385 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,388 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,389 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,395 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,399 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,405 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,416 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,420 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,421 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,429 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,445 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,458 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,465 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,467 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,473 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,478 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,479 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,485 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,490 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,494 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,517 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,526 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,533 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,542 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,548 [INFO] [BACKTEST] Position closed @ 150.35 | PNL: 4000.00 | Balance: 2998000.00
+2026-02-21 12:44:20,556 [INFO] [BACKTEST] Emulated BUY order. Price: 150.21, SL: 150.01, TP: 150.61
+2026-02-21 12:44:20,559 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,561 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,567 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,593 [INFO] [BACKTEST] Position closed @ 150.01 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:44:20,601 [INFO] [BACKTEST] Emulated SELL order. Price: 150.011, SL: 150.211, TP: 149.611
+2026-02-21 12:44:20,604 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,606 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,612 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,615 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,626 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,627 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,632 [INFO] [BACKTEST] Position closed @ 150.214 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 12:44:20,638 [INFO] [BACKTEST] Emulated SELL order. Price: 150.142, SL: 150.342, TP: 149.742
+2026-02-21 12:44:20,651 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,657 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,660 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,664 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,683 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,689 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,696 [INFO] [BACKTEST] Position closed @ 150.347 | PNL: -2000.00 | Balance: 2992000.00
+2026-02-21 12:44:20,705 [INFO] [BACKTEST] Emulated BUY order. Price: 150.272, SL: 150.072, TP: 150.672
+2026-02-21 12:44:20,710 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,722 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,727 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,742 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,751 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,752 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,762 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,774 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,780 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,786 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,794 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,794 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,795 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,795 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,799 [INFO] [BACKTEST] Position closed @ 150.045 | PNL: -2000.00 | Balance: 2990000.00
+2026-02-21 12:44:20,803 [INFO] [BACKTEST] Emulated BUY order. Price: 150.104, SL: 149.904, TP: 150.504
+2026-02-21 12:44:20,804 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,804 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,811 [INFO] [BACKTEST] Position closed @ 149.902 | PNL: -2000.00 | Balance: 2988000.00
+2026-02-21 12:44:20,819 [INFO] [BACKTEST] Emulated BUY order. Price: 149.97, SL: 149.77, TP: 150.37
+2026-02-21 12:44:20,820 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,826 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,837 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,847 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,852 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,855 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,858 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,867 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,872 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,875 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,877 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,893 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,896 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,900 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,901 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,909 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,911 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,915 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,918 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,920 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,923 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,926 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,926 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,928 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,929 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,934 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,937 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,940 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,951 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,955 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,957 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,960 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,964 [INFO] [BACKTEST] Position closed @ 150.37 | PNL: 4000.00 | Balance: 2992000.00
+2026-02-21 12:44:20,972 [INFO] [BACKTEST] Emulated BUY order. Price: 150.4, SL: 150.2, TP: 150.8
+2026-02-21 12:44:20,974 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,976 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,976 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,980 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,983 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,990 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,991 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:20,995 [INFO] [BACKTEST] Position closed @ 150.198 | PNL: -2000.00 | Balance: 2990000.00
+2026-02-21 12:44:21,005 [INFO] [BACKTEST] Emulated SELL order. Price: 150.19, SL: 150.39, TP: 149.79
+2026-02-21 12:44:21,009 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:21,012 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:21,012 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:21,013 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:21,021 [INFO] [BACKTEST] Position closed @ 149.768 | PNL: 4000.00 | Balance: 2994000.00
+2026-02-21 12:44:21,026 [INFO] [BACKTEST] Emulated BUY order. Price: 149.788, SL: 149.588, TP: 150.188
+2026-02-21 12:44:21,027 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:21,027 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:21,044 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:21,045 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:21,048 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:21,053 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:21,060 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:44:21,063 [INFO] Backtest loop completed.
+2026-02-21 12:44:21,063 [INFO] Closing open positions at end of backtest data.
+2026-02-21 12:44:21,123 [INFO] Backtest process shutting down.
+2026-02-21 12:45:05,264 [INFO] Starting OANDA Trading Bot in practice environment | Mode: BACKTEST
+2026-02-21 12:45:05,264 [INFO] setting up API-client for environment practice
+2026-02-21 12:45:05,265 [INFO] Starting backtest from 2024-02-10T09:00:00Z to 2026-02-17T01:00:00Z
+2026-02-21 12:45:05,265 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:45:05,266 [INFO] Fetching historical data for backtest...
+2026-02-21 12:45:05,267 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:45:07,098 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:45:08,810 [INFO] Fetched 9999 candles for backtest.
+2026-02-21 12:45:08,817 [INFO] [BACKTEST] Emulated BUY order. Price: 149.181, SL: 148.981, TP: 149.581
+2026-02-21 12:45:08,826 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,828 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,829 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,830 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,830 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,834 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,842 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,854 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,859 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,872 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,876 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,882 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,883 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,887 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,888 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,890 [INFO] [BACKTEST] Position closed @ 148.976 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 12:45:08,893 [INFO] [BACKTEST] Emulated BUY order. Price: 148.986, SL: 148.786, TP: 149.386
+2026-02-21 12:45:08,898 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,898 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,909 [INFO] [BACKTEST] Position closed @ 149.39 | PNL: 4000.00 | Balance: 3002000.00
+2026-02-21 12:45:08,915 [INFO] [BACKTEST] Emulated SELL order. Price: 149.432, SL: 149.632, TP: 149.032
+2026-02-21 12:45:08,932 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,948 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,959 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,967 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,973 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,991 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,993 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,996 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,996 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:08,996 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,008 [INFO] [BACKTEST] Position closed @ 149.633 | PNL: -2000.00 | Balance: 3000000.00
+2026-02-21 12:45:09,011 [INFO] [BACKTEST] Emulated SELL order. Price: 149.6, SL: 149.8, TP: 149.2
+2026-02-21 12:45:09,012 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,013 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,013 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,018 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,023 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,044 [INFO] [BACKTEST] Position closed @ 149.85 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 12:45:09,050 [INFO] [BACKTEST] Emulated SELL order. Price: 150.366, SL: 150.566, TP: 149.966
+2026-02-21 12:45:09,052 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,053 [INFO] [BACKTEST] Position closed @ 150.571 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:45:09,057 [INFO] [BACKTEST] Emulated SELL order. Price: 150.446, SL: 150.646, TP: 150.046
+2026-02-21 12:45:09,061 [INFO] [BACKTEST] Position closed @ 150.669 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 12:45:09,073 [INFO] [BACKTEST] Emulated SELL order. Price: 150.754, SL: 150.954, TP: 150.354
+2026-02-21 12:45:09,075 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,077 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,078 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,084 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,089 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,094 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,107 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,112 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,112 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,122 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,138 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,153 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,161 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,162 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,167 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,173 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,174 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,180 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,186 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,191 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,214 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,223 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,231 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,240 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,246 [INFO] [BACKTEST] Position closed @ 150.35 | PNL: 4000.00 | Balance: 2998000.00
+2026-02-21 12:45:09,255 [INFO] [BACKTEST] Emulated BUY order. Price: 150.21, SL: 150.01, TP: 150.61
+2026-02-21 12:45:09,258 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,260 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,266 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,294 [INFO] [BACKTEST] Position closed @ 150.01 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:45:09,304 [INFO] [BACKTEST] Emulated SELL order. Price: 150.011, SL: 150.211, TP: 149.611
+2026-02-21 12:45:09,306 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,308 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,315 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,319 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,329 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,330 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,336 [INFO] [BACKTEST] Position closed @ 150.214 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 12:45:09,341 [INFO] [BACKTEST] Emulated SELL order. Price: 150.142, SL: 150.342, TP: 149.742
+2026-02-21 12:45:09,355 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,361 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,364 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,366 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,384 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,389 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,397 [INFO] [BACKTEST] Position closed @ 150.347 | PNL: -2000.00 | Balance: 2992000.00
+2026-02-21 12:45:09,408 [INFO] [BACKTEST] Emulated BUY order. Price: 150.272, SL: 150.072, TP: 150.672
+2026-02-21 12:45:09,413 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,427 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,432 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,447 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,458 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,459 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,471 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,483 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,489 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,496 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,505 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,505 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,506 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,506 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,510 [INFO] [BACKTEST] Position closed @ 150.045 | PNL: -2000.00 | Balance: 2990000.00
+2026-02-21 12:45:09,514 [INFO] [BACKTEST] Emulated BUY order. Price: 150.104, SL: 149.904, TP: 150.504
+2026-02-21 12:45:09,515 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,515 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,522 [INFO] [BACKTEST] Position closed @ 149.902 | PNL: -2000.00 | Balance: 2988000.00
+2026-02-21 12:45:09,530 [INFO] [BACKTEST] Emulated BUY order. Price: 149.97, SL: 149.77, TP: 150.37
+2026-02-21 12:45:09,531 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,539 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,549 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,561 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,567 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,570 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,573 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,582 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,589 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,592 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,595 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,612 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,615 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,619 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,621 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,629 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,631 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,637 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,639 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,643 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,646 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,648 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,649 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,650 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,651 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,657 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,660 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,663 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,675 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,679 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,681 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,685 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,689 [INFO] [BACKTEST] Position closed @ 150.37 | PNL: 4000.00 | Balance: 2992000.00
+2026-02-21 12:45:09,697 [INFO] [BACKTEST] Emulated BUY order. Price: 150.4, SL: 150.2, TP: 150.8
+2026-02-21 12:45:09,699 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,700 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,701 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,706 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,709 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,715 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,716 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,721 [INFO] [BACKTEST] Position closed @ 150.198 | PNL: -2000.00 | Balance: 2990000.00
+2026-02-21 12:45:09,731 [INFO] [BACKTEST] Emulated SELL order. Price: 150.19, SL: 150.39, TP: 149.79
+2026-02-21 12:45:09,736 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,739 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,739 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,740 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,749 [INFO] [BACKTEST] Position closed @ 149.768 | PNL: 4000.00 | Balance: 2994000.00
+2026-02-21 12:45:09,754 [INFO] [BACKTEST] Emulated BUY order. Price: 149.788, SL: 149.588, TP: 150.188
+2026-02-21 12:45:09,755 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,755 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,774 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,775 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,778 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,783 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,790 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:09,793 [INFO] Backtest loop completed.
+2026-02-21 12:45:09,793 [INFO] Closing open positions at end of backtest data.
+2026-02-21 12:45:09,854 [INFO] Backtest process shutting down.
+2026-02-21 12:45:27,514 [INFO] Starting OANDA Trading Bot in practice environment | Mode: BACKTEST
+2026-02-21 12:45:27,514 [INFO] setting up API-client for environment practice
+2026-02-21 12:45:27,514 [INFO] Starting backtest from 2024-02-10T09:00:00Z to 2026-02-11T01:00:00Z
+2026-02-21 12:45:27,514 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:45:27,515 [INFO] Fetching historical data for backtest...
+2026-02-21 12:45:27,517 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:45:29,359 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:45:30,899 [INFO] Fetched 9999 candles for backtest.
+2026-02-21 12:45:30,906 [INFO] [BACKTEST] Emulated BUY order. Price: 149.181, SL: 148.981, TP: 149.581
+2026-02-21 12:45:30,915 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,917 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,918 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,919 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,920 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,924 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,931 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,943 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,946 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,960 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,963 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,969 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,970 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,973 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,974 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,976 [INFO] [BACKTEST] Position closed @ 148.976 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 12:45:30,979 [INFO] [BACKTEST] Emulated BUY order. Price: 148.986, SL: 148.786, TP: 149.386
+2026-02-21 12:45:30,983 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,984 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:30,995 [INFO] [BACKTEST] Position closed @ 149.39 | PNL: 4000.00 | Balance: 3002000.00
+2026-02-21 12:45:31,001 [INFO] [BACKTEST] Emulated SELL order. Price: 149.432, SL: 149.632, TP: 149.032
+2026-02-21 12:45:31,014 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,029 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,040 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,048 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,051 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,067 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,069 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,072 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,072 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,073 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,082 [INFO] [BACKTEST] Position closed @ 149.633 | PNL: -2000.00 | Balance: 3000000.00
+2026-02-21 12:45:31,087 [INFO] [BACKTEST] Emulated SELL order. Price: 149.6, SL: 149.8, TP: 149.2
+2026-02-21 12:45:31,088 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,088 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,089 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,093 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,098 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,118 [INFO] [BACKTEST] Position closed @ 149.85 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 12:45:31,125 [INFO] [BACKTEST] Emulated SELL order. Price: 150.366, SL: 150.566, TP: 149.966
+2026-02-21 12:45:31,127 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,128 [INFO] [BACKTEST] Position closed @ 150.571 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:45:31,131 [INFO] [BACKTEST] Emulated SELL order. Price: 150.446, SL: 150.646, TP: 150.046
+2026-02-21 12:45:31,136 [INFO] [BACKTEST] Position closed @ 150.669 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 12:45:31,147 [INFO] [BACKTEST] Emulated SELL order. Price: 150.754, SL: 150.954, TP: 150.354
+2026-02-21 12:45:31,149 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,152 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,153 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,159 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,164 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,170 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,181 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,187 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,187 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,195 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,212 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,226 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,234 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,236 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,242 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,247 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,249 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,255 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,261 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,265 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,290 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,296 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,305 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,315 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,321 [INFO] [BACKTEST] Position closed @ 150.35 | PNL: 4000.00 | Balance: 2998000.00
+2026-02-21 12:45:31,329 [INFO] [BACKTEST] Emulated BUY order. Price: 150.21, SL: 150.01, TP: 150.61
+2026-02-21 12:45:31,332 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,334 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,341 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,367 [INFO] [BACKTEST] Position closed @ 150.01 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:45:31,375 [INFO] [BACKTEST] Emulated SELL order. Price: 150.011, SL: 150.211, TP: 149.611
+2026-02-21 12:45:31,378 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,380 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,387 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,391 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,402 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,403 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,409 [INFO] [BACKTEST] Position closed @ 150.214 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 12:45:31,414 [INFO] [BACKTEST] Emulated SELL order. Price: 150.142, SL: 150.342, TP: 149.742
+2026-02-21 12:45:31,427 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,434 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,437 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,441 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,461 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,465 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,474 [INFO] [BACKTEST] Position closed @ 150.347 | PNL: -2000.00 | Balance: 2992000.00
+2026-02-21 12:45:31,483 [INFO] [BACKTEST] Emulated BUY order. Price: 150.272, SL: 150.072, TP: 150.672
+2026-02-21 12:45:31,488 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,499 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,505 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,520 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,531 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,532 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,542 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,556 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,562 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,568 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,576 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,576 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,576 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,577 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,581 [INFO] [BACKTEST] Position closed @ 150.045 | PNL: -2000.00 | Balance: 2990000.00
+2026-02-21 12:45:31,584 [INFO] [BACKTEST] Emulated BUY order. Price: 150.104, SL: 149.904, TP: 150.504
+2026-02-21 12:45:31,586 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,587 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,594 [INFO] [BACKTEST] Position closed @ 149.902 | PNL: -2000.00 | Balance: 2988000.00
+2026-02-21 12:45:31,601 [INFO] [BACKTEST] Emulated BUY order. Price: 149.97, SL: 149.77, TP: 150.37
+2026-02-21 12:45:31,602 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,609 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,620 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,630 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,637 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,639 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,643 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,651 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,658 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,661 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,664 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,681 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,684 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,688 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,690 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,698 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,700 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,705 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,708 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,710 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,713 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,715 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,715 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,717 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,718 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,724 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,726 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,730 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,742 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,746 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,749 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,753 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,756 [INFO] [BACKTEST] Position closed @ 150.37 | PNL: 4000.00 | Balance: 2992000.00
+2026-02-21 12:45:31,765 [INFO] [BACKTEST] Emulated BUY order. Price: 150.4, SL: 150.2, TP: 150.8
+2026-02-21 12:45:31,767 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,769 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,769 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,773 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,776 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,781 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,782 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,788 [INFO] [BACKTEST] Position closed @ 150.198 | PNL: -2000.00 | Balance: 2990000.00
+2026-02-21 12:45:31,798 [INFO] [BACKTEST] Emulated SELL order. Price: 150.19, SL: 150.39, TP: 149.79
+2026-02-21 12:45:31,803 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,805 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,806 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,806 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,814 [INFO] [BACKTEST] Position closed @ 149.768 | PNL: 4000.00 | Balance: 2994000.00
+2026-02-21 12:45:31,819 [INFO] [BACKTEST] Emulated BUY order. Price: 149.788, SL: 149.588, TP: 150.188
+2026-02-21 12:45:31,820 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,820 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,836 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,837 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,841 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,845 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,852 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:45:31,855 [INFO] Backtest loop completed.
+2026-02-21 12:45:31,855 [INFO] Closing open positions at end of backtest data.
+2026-02-21 12:45:31,914 [INFO] Backtest process shutting down.
+2026-02-21 12:48:50,341 [INFO] Starting OANDA Trading Bot in practice environment | Mode: BACKTEST
+2026-02-21 12:48:50,341 [INFO] setting up API-client for environment practice
+2026-02-21 12:48:50,341 [INFO] Starting backtest from 2024-02-10T09:00:00Z to 2026-02-11T01:00:00Z
+2026-02-21 12:48:50,341 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:48:50,342 [INFO] Fetching historical data for backtest...
+2026-02-21 12:48:50,344 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:48:52,029 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:48:53,459 [INFO] Fetched 9999 candles for backtest.
+2026-02-21 12:48:53,465 [INFO] [BACKTEST] Emulated BUY order. Price: 149.181, SL: 148.981, TP: 149.581
+2026-02-21 12:48:53,473 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,475 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,476 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,477 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,477 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,481 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,490 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,502 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,506 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,521 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,524 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,530 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,531 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,534 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,534 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,538 [INFO] [BACKTEST] Position closed @ 148.976 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 12:48:53,542 [INFO] [BACKTEST] Emulated BUY order. Price: 148.986, SL: 148.786, TP: 149.386
+2026-02-21 12:48:53,546 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,547 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,557 [INFO] [BACKTEST] Position closed @ 149.39 | PNL: 4000.00 | Balance: 3002000.00
+2026-02-21 12:48:53,564 [INFO] [BACKTEST] Emulated SELL order. Price: 149.432, SL: 149.632, TP: 149.032
+2026-02-21 12:48:53,577 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,592 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,600 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,608 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,613 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,629 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,631 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,634 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,634 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,634 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,646 [INFO] [BACKTEST] Position closed @ 149.633 | PNL: -2000.00 | Balance: 3000000.00
+2026-02-21 12:48:53,649 [INFO] [BACKTEST] Emulated SELL order. Price: 149.6, SL: 149.8, TP: 149.2
+2026-02-21 12:48:53,650 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,651 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,652 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,656 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,661 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,680 [INFO] [BACKTEST] Position closed @ 149.85 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 12:48:53,687 [INFO] [BACKTEST] Emulated SELL order. Price: 150.366, SL: 150.566, TP: 149.966
+2026-02-21 12:48:53,690 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,690 [INFO] [BACKTEST] Position closed @ 150.571 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:48:53,694 [INFO] [BACKTEST] Emulated SELL order. Price: 150.446, SL: 150.646, TP: 150.046
+2026-02-21 12:48:53,698 [INFO] [BACKTEST] Position closed @ 150.669 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 12:48:53,709 [INFO] [BACKTEST] Emulated SELL order. Price: 150.754, SL: 150.954, TP: 150.354
+2026-02-21 12:48:53,710 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,713 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,714 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,721 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,725 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,732 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,744 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,748 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,749 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,758 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,774 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,788 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,796 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,797 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,803 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,808 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,809 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,815 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,821 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,825 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,849 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,857 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,865 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,875 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,881 [INFO] [BACKTEST] Position closed @ 150.35 | PNL: 4000.00 | Balance: 2998000.00
+2026-02-21 12:48:53,890 [INFO] [BACKTEST] Emulated BUY order. Price: 150.21, SL: 150.01, TP: 150.61
+2026-02-21 12:48:53,893 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,895 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,901 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,926 [INFO] [BACKTEST] Position closed @ 150.01 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:48:53,934 [INFO] [BACKTEST] Emulated SELL order. Price: 150.011, SL: 150.211, TP: 149.611
+2026-02-21 12:48:53,937 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,939 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,945 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,949 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,960 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,961 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,967 [INFO] [BACKTEST] Position closed @ 150.214 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 12:48:53,972 [INFO] [BACKTEST] Emulated SELL order. Price: 150.142, SL: 150.342, TP: 149.742
+2026-02-21 12:48:53,984 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,991 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,994 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:53,997 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,015 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,020 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,028 [INFO] [BACKTEST] Position closed @ 150.347 | PNL: -2000.00 | Balance: 2992000.00
+2026-02-21 12:48:54,037 [INFO] [BACKTEST] Emulated BUY order. Price: 150.272, SL: 150.072, TP: 150.672
+2026-02-21 12:48:54,042 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,054 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,059 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,073 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,083 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,084 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,094 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,106 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,111 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,117 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,125 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,125 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,125 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,126 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,130 [INFO] [BACKTEST] Position closed @ 150.045 | PNL: -2000.00 | Balance: 2990000.00
+2026-02-21 12:48:54,133 [INFO] [BACKTEST] Emulated BUY order. Price: 150.104, SL: 149.904, TP: 150.504
+2026-02-21 12:48:54,135 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,135 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,143 [INFO] [BACKTEST] Position closed @ 149.902 | PNL: -2000.00 | Balance: 2988000.00
+2026-02-21 12:48:54,151 [INFO] [BACKTEST] Emulated BUY order. Price: 149.97, SL: 149.77, TP: 150.37
+2026-02-21 12:48:54,152 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,159 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,169 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,179 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,184 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,186 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,191 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,199 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,205 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,208 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,211 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,229 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,231 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,235 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,236 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,244 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,247 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,251 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,254 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,257 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,259 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,262 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,262 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,264 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,265 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,271 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,273 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,276 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,288 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,292 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,295 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,298 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,302 [INFO] [BACKTEST] Position closed @ 150.37 | PNL: 4000.00 | Balance: 2992000.00
+2026-02-21 12:48:54,310 [INFO] [BACKTEST] Emulated BUY order. Price: 150.4, SL: 150.2, TP: 150.8
+2026-02-21 12:48:54,312 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,313 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,314 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,318 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,321 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,326 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,327 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,332 [INFO] [BACKTEST] Position closed @ 150.198 | PNL: -2000.00 | Balance: 2990000.00
+2026-02-21 12:48:54,343 [INFO] [BACKTEST] Emulated SELL order. Price: 150.19, SL: 150.39, TP: 149.79
+2026-02-21 12:48:54,348 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,350 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,351 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,352 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,360 [INFO] [BACKTEST] Position closed @ 149.768 | PNL: 4000.00 | Balance: 2994000.00
+2026-02-21 12:48:54,365 [INFO] [BACKTEST] Emulated BUY order. Price: 149.788, SL: 149.588, TP: 150.188
+2026-02-21 12:48:54,366 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,366 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,382 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,383 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,387 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,391 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,398 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:48:54,401 [INFO] Backtest loop completed.
+2026-02-21 12:48:54,401 [INFO] Closing open positions at end of backtest data.
+2026-02-21 12:48:54,458 [INFO] Backtest process shutting down.
+2026-02-21 12:50:39,440 [INFO] Starting OANDA Trading Bot in practice environment | Mode: BACKTEST
+2026-02-21 12:50:39,440 [INFO] setting up API-client for environment practice
+2026-02-21 12:50:39,441 [INFO] Starting backtest from 2024-02-10T09:00:00Z to 2026-02-11T01:00:00Z
+2026-02-21 12:50:39,441 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:50:39,442 [INFO] Fetching historical data for backtest...
+2026-02-21 12:50:39,443 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:50:41,188 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:50:42,721 [INFO] Fetched 9999 candles for backtest.
+2026-02-21 12:50:42,728 [INFO] [BACKTEST] Emulated BUY order. Price: 149.181, SL: 148.981, TP: 149.581
+2026-02-21 12:50:42,736 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,738 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,740 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,740 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,741 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,744 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,751 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,761 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,765 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,777 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,780 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,786 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,787 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,789 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,790 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,793 [INFO] [BACKTEST] Position closed @ 148.976 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 12:50:42,797 [INFO] [BACKTEST] Emulated BUY order. Price: 148.986, SL: 148.786, TP: 149.386
+2026-02-21 12:50:42,801 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,801 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,811 [INFO] [BACKTEST] Position closed @ 149.39 | PNL: 4000.00 | Balance: 3002000.00
+2026-02-21 12:50:42,817 [INFO] [BACKTEST] Emulated SELL order. Price: 149.432, SL: 149.632, TP: 149.032
+2026-02-21 12:50:42,831 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,846 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,855 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,862 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,866 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,882 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,884 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,888 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,888 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,889 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,899 [INFO] [BACKTEST] Position closed @ 149.633 | PNL: -2000.00 | Balance: 3000000.00
+2026-02-21 12:50:42,902 [INFO] [BACKTEST] Emulated SELL order. Price: 149.6, SL: 149.8, TP: 149.2
+2026-02-21 12:50:42,903 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,904 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,905 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,908 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,913 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,932 [INFO] [BACKTEST] Position closed @ 149.85 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 12:50:42,938 [INFO] [BACKTEST] Emulated SELL order. Price: 150.366, SL: 150.566, TP: 149.966
+2026-02-21 12:50:42,941 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,941 [INFO] [BACKTEST] Position closed @ 150.571 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:50:42,945 [INFO] [BACKTEST] Emulated SELL order. Price: 150.446, SL: 150.646, TP: 150.046
+2026-02-21 12:50:42,949 [INFO] [BACKTEST] Position closed @ 150.669 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 12:50:42,958 [INFO] [BACKTEST] Emulated SELL order. Price: 150.754, SL: 150.954, TP: 150.354
+2026-02-21 12:50:42,960 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,962 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,964 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,970 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,974 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,978 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,991 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,994 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:42,995 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,003 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,017 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,029 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,037 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,039 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,044 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,049 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,050 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,056 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,061 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,065 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,087 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,094 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,102 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,110 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,117 [INFO] [BACKTEST] Position closed @ 150.35 | PNL: 4000.00 | Balance: 2998000.00
+2026-02-21 12:50:43,125 [INFO] [BACKTEST] Emulated BUY order. Price: 150.21, SL: 150.01, TP: 150.61
+2026-02-21 12:50:43,128 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,130 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,135 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,160 [INFO] [BACKTEST] Position closed @ 150.01 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:50:43,167 [INFO] [BACKTEST] Emulated SELL order. Price: 150.011, SL: 150.211, TP: 149.611
+2026-02-21 12:50:43,171 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,173 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,179 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,183 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,193 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,194 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,200 [INFO] [BACKTEST] Position closed @ 150.214 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 12:50:43,205 [INFO] [BACKTEST] Emulated SELL order. Price: 150.142, SL: 150.342, TP: 149.742
+2026-02-21 12:50:43,217 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,223 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,226 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,230 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,249 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,254 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,262 [INFO] [BACKTEST] Position closed @ 150.347 | PNL: -2000.00 | Balance: 2992000.00
+2026-02-21 12:50:43,273 [INFO] [BACKTEST] Emulated BUY order. Price: 150.272, SL: 150.072, TP: 150.672
+2026-02-21 12:50:43,278 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,290 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,296 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,309 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,319 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,320 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,330 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,343 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,348 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,354 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,362 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,362 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,363 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,363 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,367 [INFO] [BACKTEST] Position closed @ 150.045 | PNL: -2000.00 | Balance: 2990000.00
+2026-02-21 12:50:43,371 [INFO] [BACKTEST] Emulated BUY order. Price: 150.104, SL: 149.904, TP: 150.504
+2026-02-21 12:50:43,372 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,373 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,380 [INFO] [BACKTEST] Position closed @ 149.902 | PNL: -2000.00 | Balance: 2988000.00
+2026-02-21 12:50:43,388 [INFO] [BACKTEST] Emulated BUY order. Price: 149.97, SL: 149.77, TP: 150.37
+2026-02-21 12:50:43,389 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,395 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,406 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,415 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,421 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,423 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,427 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,435 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,441 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,444 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,447 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,463 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,466 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,469 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,471 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,479 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,481 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,485 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,488 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,491 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,494 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,496 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,496 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,499 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,499 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,505 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,508 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,511 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,522 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,526 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,528 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,531 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,535 [INFO] [BACKTEST] Position closed @ 150.37 | PNL: 4000.00 | Balance: 2992000.00
+2026-02-21 12:50:43,544 [INFO] [BACKTEST] Emulated BUY order. Price: 150.4, SL: 150.2, TP: 150.8
+2026-02-21 12:50:43,546 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,547 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,547 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,551 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,554 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,559 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,560 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,565 [INFO] [BACKTEST] Position closed @ 150.198 | PNL: -2000.00 | Balance: 2990000.00
+2026-02-21 12:50:43,574 [INFO] [BACKTEST] Emulated SELL order. Price: 150.19, SL: 150.39, TP: 149.79
+2026-02-21 12:50:43,578 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,581 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,581 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,582 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,590 [INFO] [BACKTEST] Position closed @ 149.768 | PNL: 4000.00 | Balance: 2994000.00
+2026-02-21 12:50:43,595 [INFO] [BACKTEST] Emulated BUY order. Price: 149.788, SL: 149.588, TP: 150.188
+2026-02-21 12:50:43,596 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,596 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,610 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,611 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,616 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,620 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,628 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:50:43,630 [INFO] Backtest loop completed.
+2026-02-21 12:50:43,630 [INFO] Closing open positions at end of backtest data.
+2026-02-21 12:50:43,687 [INFO] Backtest process shutting down.
+2026-02-21 12:51:09,809 [INFO] Starting OANDA Trading Bot in practice environment | Mode: BACKTEST
+2026-02-21 12:51:09,809 [INFO] setting up API-client for environment practice
+2026-02-21 12:51:09,809 [INFO] Starting backtest from 2024-02-14T09:00:00Z to 2026-02-17T01:00:00Z
+2026-02-21 12:51:09,809 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 12:51:09,810 [INFO] Fetching historical data for backtest...
+2026-02-21 12:51:09,812 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:51:11,615 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 12:51:13,461 [INFO] Fetched 9999 candles for backtest.
+2026-02-21 12:51:13,466 [INFO] [BACKTEST] Emulated SELL order. Price: 150.652, SL: 150.852, TP: 150.252
+2026-02-21 12:51:13,471 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,473 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,478 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,483 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,487 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,510 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,516 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,524 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,533 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,542 [INFO] [BACKTEST] Position closed @ 150.244 | PNL: 4000.00 | Balance: 3004000.00
+2026-02-21 12:51:13,549 [INFO] [BACKTEST] Emulated BUY order. Price: 150.21, SL: 150.01, TP: 150.61
+2026-02-21 12:51:13,553 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,555 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,561 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,584 [INFO] [BACKTEST] Position closed @ 150.01 | PNL: -2000.00 | Balance: 3002000.00
+2026-02-21 12:51:13,592 [INFO] [BACKTEST] Emulated SELL order. Price: 150.011, SL: 150.211, TP: 149.611
+2026-02-21 12:51:13,595 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,596 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,603 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,606 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,616 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,617 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,623 [INFO] [BACKTEST] Position closed @ 150.214 | PNL: -2000.00 | Balance: 3000000.00
+2026-02-21 12:51:13,629 [INFO] [BACKTEST] Emulated SELL order. Price: 150.142, SL: 150.342, TP: 149.742
+2026-02-21 12:51:13,641 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,647 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,650 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,652 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,671 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,675 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,683 [INFO] [BACKTEST] Position closed @ 150.347 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 12:51:13,692 [INFO] [BACKTEST] Emulated BUY order. Price: 150.272, SL: 150.072, TP: 150.672
+2026-02-21 12:51:13,697 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,709 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,714 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,729 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,741 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,742 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,752 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,764 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,771 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,778 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,785 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,786 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,786 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,787 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,790 [INFO] [BACKTEST] Position closed @ 150.045 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:51:13,794 [INFO] [BACKTEST] Emulated BUY order. Price: 150.104, SL: 149.904, TP: 150.504
+2026-02-21 12:51:13,796 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,796 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,803 [INFO] [BACKTEST] Position closed @ 149.902 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 12:51:13,811 [INFO] [BACKTEST] Emulated BUY order. Price: 149.97, SL: 149.77, TP: 150.37
+2026-02-21 12:51:13,812 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,818 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,830 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,841 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,847 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,848 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,853 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,860 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,866 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,869 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,872 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,888 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,890 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,894 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,896 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,905 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,907 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,911 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,914 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,917 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,921 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,923 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,924 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,926 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,927 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,932 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,934 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,938 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,949 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,952 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,955 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,958 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,962 [INFO] [BACKTEST] Position closed @ 150.37 | PNL: 4000.00 | Balance: 2998000.00
+2026-02-21 12:51:13,970 [INFO] [BACKTEST] Emulated BUY order. Price: 150.4, SL: 150.2, TP: 150.8
+2026-02-21 12:51:13,972 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,973 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,973 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,977 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,980 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,985 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,986 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:13,991 [INFO] [BACKTEST] Position closed @ 150.198 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 12:51:14,001 [INFO] [BACKTEST] Emulated SELL order. Price: 150.19, SL: 150.39, TP: 149.79
+2026-02-21 12:51:14,005 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,007 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,008 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,009 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,017 [INFO] [BACKTEST] Position closed @ 149.768 | PNL: 4000.00 | Balance: 3000000.00
+2026-02-21 12:51:14,022 [INFO] [BACKTEST] Emulated BUY order. Price: 149.788, SL: 149.588, TP: 150.188
+2026-02-21 12:51:14,022 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,023 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,039 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,040 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,043 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,047 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,055 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,062 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,071 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,074 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,079 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,089 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,093 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,100 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,104 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,110 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,111 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,119 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,124 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,127 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,132 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,140 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,151 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,153 [INFO] [BACKTEST] Position closed @ 150.22 | PNL: 4000.00 | Balance: 3004000.00
+2026-02-21 12:51:14,159 [INFO] [BACKTEST] Emulated SELL order. Price: 150.242, SL: 150.442, TP: 149.842
+2026-02-21 12:51:14,160 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,168 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,176 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,178 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,179 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,181 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,183 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,200 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,203 [INFO] [BACKTEST] Position closed @ 150.446 | PNL: -2000.00 | Balance: 3002000.00
+2026-02-21 12:51:14,213 [INFO] [BACKTEST] Emulated SELL order. Price: 150.384, SL: 150.584, TP: 149.984
+2026-02-21 12:51:14,216 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,225 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,227 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,230 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,234 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,235 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,243 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,254 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,255 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,258 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,262 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,274 [INFO] [BACKTEST] Position closed @ 150.589 | PNL: -2000.00 | Balance: 3000000.00
+2026-02-21 12:51:14,277 [INFO] [BACKTEST] Emulated SELL order. Price: 150.571, SL: 150.771, TP: 150.171
+2026-02-21 12:51:14,278 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,279 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,281 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,293 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,297 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,303 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,308 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,326 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,331 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,337 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,351 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,368 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 12:51:14,373 [INFO] Backtest loop completed.
+2026-02-21 12:51:14,373 [INFO] Closing open positions at end of backtest data.
+2026-02-21 12:51:14,430 [INFO] Backtest process shutting down.
+2026-02-21 13:09:10,313 [INFO] Starting OANDA Trading Bot in practice environment | Mode: BACKTEST
+2026-02-21 13:09:10,313 [INFO] setting up API-client for environment practice
+2026-02-21 13:09:10,313 [INFO] Starting backtest from 2026-02-18T09:00:00Z to 2026-02-20T15:00:00Z
+2026-02-21 13:09:10,313 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 13:09:10,314 [INFO] Fetching historical data for backtest...
+2026-02-21 13:09:10,316 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 13:09:12,211 [INFO] Fetched 3230 candles for backtest.
+2026-02-21 13:09:12,213 [INFO] [BACKTEST] Emulated SELL order. Price: 153.72, SL: 153.92, TP: 153.32
+2026-02-21 13:09:12,215 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,224 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,230 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,234 [INFO] [BACKTEST] Position closed @ 153.942 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 13:09:12,241 [INFO] [BACKTEST] Emulated SELL order. Price: 154.324, SL: 154.524, TP: 153.924
+2026-02-21 13:09:12,244 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,246 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,249 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,256 [INFO] [BACKTEST] Position closed @ 154.536 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 13:09:12,263 [INFO] [BACKTEST] Emulated SELL order. Price: 154.744, SL: 154.944, TP: 154.344
+2026-02-21 13:09:12,265 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,268 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,272 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,281 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,285 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,289 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,291 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,294 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,298 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,300 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,301 [INFO] [BACKTEST] Position closed @ 154.946 | PNL: -2000.00 | Balance: 2994000.00
+2026-02-21 13:09:12,316 [INFO] [BACKTEST] Emulated SELL order. Price: 155.188, SL: 155.388, TP: 154.788
+2026-02-21 13:09:12,322 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,330 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,333 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,338 [INFO] [BACKTEST] Position closed @ 154.78 | PNL: 4000.00 | Balance: 2998000.00
+2026-02-21 13:09:12,341 [INFO] [BACKTEST] Emulated BUY order. Price: 154.875, SL: 154.675, TP: 155.275
+2026-02-21 13:09:12,348 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,349 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,350 [INFO] [BACKTEST] Position closed @ 154.664 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 13:09:12,356 [INFO] [BACKTEST] Emulated BUY order. Price: 154.679, SL: 154.479, TP: 155.079
+2026-02-21 13:09:12,360 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,369 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,370 [INFO] [BACKTEST] Position closed @ 155.125 | PNL: 4000.00 | Balance: 3000000.00
+2026-02-21 13:09:12,375 [INFO] [BACKTEST] Emulated SELL order. Price: 155.216, SL: 155.416, TP: 154.816
+2026-02-21 13:09:12,387 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,391 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,392 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,401 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,407 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,409 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,412 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,427 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,430 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,435 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,442 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,446 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,463 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,472 [INFO] [BACKTEST] Position closed @ 155.416 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 13:09:12,476 [INFO] [BACKTEST] Emulated SELL order. Price: 155.366, SL: 155.566, TP: 154.966
+2026-02-21 13:09:12,477 [INFO] [BACKTEST] Position closed @ 155.582 | PNL: -2000.00 | Balance: 2996000.00
+2026-02-21 13:09:12,481 [INFO] [BACKTEST] Emulated SELL order. Price: 155.464, SL: 155.664, TP: 155.064
+2026-02-21 13:09:12,487 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,489 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,494 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,496 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,498 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,511 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:12,514 [INFO] Backtest loop completed.
+2026-02-21 13:09:12,514 [INFO] Closing open positions at end of backtest data.
+2026-02-21 13:09:12,533 [INFO] Backtest process shutting down.
+2026-02-21 13:09:41,804 [INFO] Starting OANDA Trading Bot in practice environment | Mode: BACKTEST
+2026-02-21 13:09:41,804 [INFO] setting up API-client for environment practice
+2026-02-21 13:09:41,805 [INFO] Starting backtest from 2026-02-19T09:00:00Z to 2026-02-19T15:00:00Z
+2026-02-21 13:09:41,805 [INFO] Monitoring USD_JPY on M1 timeframe.
+2026-02-21 13:09:41,806 [INFO] Fetching historical data for backtest...
+2026-02-21 13:09:41,808 [INFO] performing request https://api-fxpractice.oanda.com/v3/instruments/USD_JPY/candles
+2026-02-21 13:09:43,156 [INFO] Fetched 361 candles for backtest.
+2026-02-21 13:09:43,161 [INFO] [BACKTEST] Emulated BUY order. Price: 154.814, SL: 154.614, TP: 155.214
+2026-02-21 13:09:43,162 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:43,168 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:43,169 [INFO] [BACKTEST] Position closed @ 154.612 | PNL: -2000.00 | Balance: 2998000.00
+2026-02-21 13:09:43,172 [INFO] [BACKTEST] Emulated BUY order. Price: 154.643, SL: 154.443, TP: 155.043
+2026-02-21 13:09:43,180 [INFO] Position already exists virtually for USD_JPY. Skipping.
+2026-02-21 13:09:43,180 [INFO] [BACKTEST] Position closed @ 155.048 | PNL: 4000.00 | Balance: 3002000.00
+2026-02-21 13:09:43,186 [INFO] [BACKTEST] Emulated SELL order. Price: 155.216, SL: 155.416, TP: 154.816
+2026-02-21 13:09:43,187 [INFO] Backtest loop completed.
+2026-02-21 13:09:43,187 [INFO] Closing open positions at end of backtest data.
+2026-02-21 13:09:43,191 [INFO] Backtest process shutting down.
